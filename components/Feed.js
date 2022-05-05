@@ -6,7 +6,7 @@ import Stories from './Stories'
 
 function Feed() {
   return (
-    <VStack  flexBasis={"550px"} maxWidth="550px" height={"600px"}  flexGrow={1} py={5} px={5} >
+    <VStack  flexBasis={"550px"} maxWidth="550px" height={"530px"}  flexGrow={1} py={5} px={5} >
         <Stories />
         <InputBox />
         <Posts />

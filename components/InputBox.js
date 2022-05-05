@@ -38,6 +38,8 @@ try {
             });
         }
     })
+    setimageToPost(null)
+    inputref.current.value = ""
   } catch (e) {
     console.error("Error adding document: ", e);
   }

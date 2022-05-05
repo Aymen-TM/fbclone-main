@@ -8,7 +8,7 @@ import {RiShareForwardLine} from 'react-icons/ri'
 
 function Post({name,image,timestamp,postimage,message}) {
   return (
-    <Box width='100%' mt={4} >
+    <Box width='100%' mt={2}  >
         <Box  bgColor={"white"} p={4}>
         <HStack >
             <Avatar name={name} src={image} size={"md"} />
@@ -23,15 +23,15 @@ function Post({name,image,timestamp,postimage,message}) {
           {postimage && <Image src={postimage} objectFit='cover' layout='fill'  /> }  
         </Box>
         <HStack bgColor='white' rounded={"md"}>
-            <Box rounded={"md"} flexGrow={1} display={"flex"} p={2} mr={1} alignItems={"center"} justifyContent={'center'} _hover={{backgroundColor:'rgb(242, 242, 242)'}} cursor={"pointer"}>
+            <Box rounded={"md"} flexGrow={1} display={"flex"} p={2} m={2} alignItems={"center"} justifyContent={'center'} _hover={{backgroundColor:'rgb(242, 242, 242)',color:"rgb(43, 113, 210)"}} cursor={"pointer"}>
                 <Icon as={AiOutlineLike} />
                 <Text ml={2}>Like</Text>
             </Box>
-            <Box rounded={"md"} flexGrow={1}  display={"flex"} p={2} mr={1}  alignItems={"center"} justifyContent={'center'} _hover={{backgroundColor:'rgb(242, 242, 242)'}} cursor={"pointer"}>
+            <Box rounded={"md"} flexGrow={1}  display={"flex"} p={2} m={2}  alignItems={"center"} justifyContent={'center'} _hover={{backgroundColor:'rgb(242, 242, 242)',color:"rgb(43, 113, 210)"}} cursor={"pointer"}>
                 <Icon as={GoComment} />
                 <Text ml={2}>Comment</Text>
             </Box>
-            <Box rounded={"md"} flexGrow={1}  display={"flex"} p={2} mr={1}  alignItems={"center"} justifyContent={'center'}  _hover={{backgroundColor:'rgb(242, 242, 242)'}} cursor={"pointer"}>
+            <Box rounded={"md"} flexGrow={1}  display={"flex"} p={2} m={2}  alignItems={"center"} justifyContent={'center'}  _hover={{backgroundColor:'rgb(242, 242, 242)',color:"rgb(43, 113, 210)"}} cursor={"pointer"}>
                 <Icon as={RiShareForwardLine} />
                 <Text ml={2}>Share</Text>
             </Box>

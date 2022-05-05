@@ -25,7 +25,7 @@ return (
       <Icon as={FaCaretDown} />
     </MenuButton>
     <MenuList>
-      <MenuItem icon={<RiLogoutBoxRLine fontSize={20} />} onClick={()=>signOut()}>Log Out</MenuItem>
+      <MenuItem  icon={<RiLogoutBoxRLine fontSize={20} />} onClick={()=>signOut()}>Log Out</MenuItem>
     </MenuList>
   </Menu>
 </HStack>
